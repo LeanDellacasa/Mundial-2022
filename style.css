@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    color:#ffffff;
+    background-image: url(imagenes/fondo.jpeg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* header */
+
+nav{
+    background-color: #4e0314;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 5rem;
+}
+
+.box__shadow {
+    box-shadow: 1px -1px 12px 4px #ffffff;
+    -webkit-box-shadow: 1px -1px 12px 4px #ffffff;
+    -moz-box-shadow: 1px -1px 12px 4px #ffffff;
+}
+
+.margin__center {
+    margin: 0rem auto;
+}
+
+.nav__img {
+    width: 25rem;
+    height: 12rem;
+    opacity: 0.85;
+}
+
+ul {
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    text-shadow: 3px 2px 3px rgb(0, 0, 0);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+    a:hover {
+    color: #d8a705;
+    transform: scale(1 00.5rem);
+    transition: all 1s;
+  }
+
+.header__redes {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.nav__iconoSociales{
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+}
+
+/* Main */
+
+.main-container {
+    text-shadow: 3px 2px 3px rgb(0, 0, 0);
+}
+
+/* section Noticia Principal y publi */
+
+.main__encabezado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__noticia {
+    width: 80%;
+}
+
+.article__titulo {
+    padding: 2rem 5rem;
+    margin: 2.5rem 0px;
+    font-size: 4rem;
+}
+
+.article__img {
+    margin-left: 5rem;
+    border-radius: 4rem;
+    width: 110rem ;
+    height: 60rem ;
+}
+
+.section__parrafo {
+    padding-left: 7rem ;
+    position: relative;
+    bottom: 12rem;
+    font-weight: 400;
+}
+
+.sponsor__img {
+    width: 20rem;
+    height: 40rem;
+    
+}
+
+.section__sponsor {
+    padding: 2rem;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section Subnoticias */
+
+.section__subnoticias{
+    display: flex;
+    flex-direction: column;
+}
+
+.subnoti {
+    display: flex;
+    margin: 2rem 0rem;
+}
+
+.subnoti__img {
+    margin-left: 5rem;
+    width: 50rem;
+    height: 25rem;
+    border-radius: 3rem;
+    border: solid 0.35rem aliceblue;
+}
+
+.subnoti__parrafo {
+    margin: 5rem;
+    font-weight: 400;    
+}
+
+/* Cuenta Regresiva */
+
+  
+.section__cuenta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: outset 0.5rem #ffffff;
+}
+
+.titulo__cuenta {
+    margin: 1rem;
+    font-size: large;
+}
+.cuenta__regresiva {
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}  
+.cuenta__numeros { 
+    color: #000;
+    font-weight: bold;
+    background-color: #eeeeee;
+    padding: 2rem 2rem;
+    border-radius: 50%;
+    border: solid 0.1rem #000;
+    text-shadow: none;
+    
+}
+
+
+
+/* Footer */
+
+.footer-container {
+    background-color: #a47c8c;
+    color: black;
+    font-weight:bolder;
+    font-size: 1.6rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__politicas {
+    width: 20%;
+    margin: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__politicas h4 {
+    margin: 0.5rem 0rem;
+}
+
+.footer__enlaces {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer__ul {
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.footer__ul a {
+    font-size: medium;
+    color: black;
+    text-decoration:underline;
+    text-shadow: none;
+}
+
+.footer__ul a:hover {
+    color: #9c5503;
+  }
+
+.img__patrocinio{
+    
+    width: 5rem;
+    height: 5rem;
+    margin: 0px 2rem;
+}
+
+.footer__patrocinio {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+.patrocinio__titulo {
+    padding: 1rem;
+}
+
+.patrocinio__img {
+    height: 100%;
+}
+
+/* grupos page */
+
+#img__grupos {
+    width: 100%;
+    height: 100%;
+}
+
+/* aficion-page */
+
+.main-container-aficion {
+    display: flex;
+    flex-wrap:unset;
+    text-shadow: 3px 2px 3px rgb(0, 0, 0);
+        
+}
+
+.main__img {
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+    border-radius: 5rem;
+    border-style: outset;
+    
+}
+
+.img_aficion {
+    width: 100%;
+    height: 100%;
+    border-radius: 5rem;
+}
+
+/* estadios-page */
+
+.main-container-estadios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-shadow: 1px 0px 1px rgb(0, 0, 0);
+    color: inherit;
+    font-size: 1.5rem;
+        
+}
+
+.main__videos {
+    margin: 2rem;
+}
+
+.main__parrafos {
+    width: 55%;
+    margin: 2rem;
+    background: rgb(158,10,44);
+    background: radial-gradient(circle, rgba(158,10,44,1) 0%, rgb(32, 32, 32) 89%); 
+    border: double 0.5rem #fcf8f9;
+    
+}
+
+.main__parrafos p {
+    margin: 0rem auto;
+}
+
+/* participa-page */
+
+.participa__titulo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.main-container-participa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 0px 1px rgb(0, 0, 0);
+    color: #c7b9bf;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.participa__form {
+    width: 65%;
+}
+
+.participa__titulo h2 {
+    margin: 0rem auto;
+    
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0rem;
+    border: solid 0.5rem #daa301;
+    border-radius: 2rem;
+    background: rgb(158,10,44);
+    background: linear-gradient(175deg, rgba(158,10,44,1) 56%, rgba(138,149,151,1) 100%);
+}
+
+.text__form {
+margin: 0rem auto
+}
+
+.form__input {
+    margin: 2rem auto;
+    width: 100%;
+    height: 3rem;
+}
+
+#btn {
+    margin: 2rem auto;
+    width: 12rem;
+    border-radius: 1rem;
+}
+
+#buttom {
+    display: flex;
+    justify-content: center;
+}
+ 
