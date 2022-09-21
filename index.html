@@ -8,19 +8,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagenes/icono.ico" type="image/x-icon">
+    <!-- Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Hoja de Estilos -->
     <link rel="stylesheet" href="style.css">
+    <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
     <title>Qatar 2022</title>
 </head>
 
 <!-- Body -->
 
 <body class="body-container">
-    
-    <header class="header-container">
+
+    <header>
 
         <nav class="header__nav">
 
@@ -34,7 +39,7 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="pages/grupos.html">Grupos</a></li>
                 <li><a href="pages/estadios.html">Estadios</a></li>
-                <li><a href="pages/aficion.html">Aficion</a></li>
+                <li><a href="pages/aficion.html">Afición</a></li>
                 <li><a href="pages/participa.html">Participa</a></li>
             </ul>
 
@@ -70,10 +75,10 @@
 
     <main class="main-container">
         <!-- Noticia Principal -->
+        <h1 class="article__titulo">Noticias Qatar 2022</h1>
+
         <div class="main__encabezado">
             <section class="section__noticia">
-
-                <h1 class="article__titulo">Noticias Qatar 2022</h1>
 
                 <img src="imagenes/estadio-lusail.jpeg" alt="estadio-lusail" class="article__img box__shadow">
 
@@ -88,7 +93,7 @@
             <!-- Publicidad -->
 
             <section class="section__sponsor">
-                
+
                 <img src="imagenes/sponsor.jpg" alt="sponsor nike" class="sponsor__img box__shadow">
             </section>
         </div>
@@ -97,20 +102,34 @@
 
         <section class="section__subnoticias">
             <div class="subnoti">
-                <img src="imagenes/album.jpeg" alt="album del mundial" class="subnoti__img">
-                <p class="subnoti__parrafo">"No hay mas". <br> <br> 
-                    El Mundial Qatar 2022 “se prendió”. Faltan casi 90 días para que la pelota empiece a rodar oficialmente en la cancha, pero ya empezó otra contienda: la de las figuritas. Y parece que se juega en un grupo difícil. El deseo por conseguirlas mutó en poco días con estas emociones: de la alegría por tener los primeros cromos, a la angustia de no saber dónde conseguirlas. Incluso al propio álbum. Es que en la Argentina, por estos días, se agotó el coleccionable, y salvo la posibilidad de encontrarlas en algún mayorista o a precios superiores a los oficiales en sitios de comercio electrónico, no hay mucha opción. O sí: fomentar la paciencia a la espera de una nueva distribución.</p>
-            </div>
-            <div class="subnoti">
-                <img src="imagenes/noticia-entradas.jpg" alt="jugadores abrazados" class="subnoti__img">
-                <p class="subnoti__parrafo">Conoce las formas de comprar las Entradas para ver a la seleccion en su debut Mundialista. <br> <br>
-                    FIFA reveló que todavía hay posibilidades de adquirir entradas y remarcó: "Aquellos hinchas que aún no tengan entradas, o quieran obtener localidades para otros encuentros y aprovechar así el carácter compacto del país, deberán permanecer atentos a FIFA.com/tickets a partir de finales de septiembre, momento en que se anunciará la fecha de inicio del periodo de venta de última hora".
+                <img src="imagenes/album.jpeg" alt="album del mundial" class="subnoti__img" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200">
+                <p class="subnoti__parrafo">"No hay mas". <br> <br>
+                    El Mundial Qatar 2022 “se prendió”. Faltan casi 90 días para que la pelota empiece a rodar
+                    oficialmente en la cancha, pero ya empezó otra contienda: la de las figuritas. Y parece que se juega
+                    en un grupo difícil. El deseo por conseguirlas mutó en poco días con estas emociones: de la alegría
+                    por tener los primeros cromos, a la angustia de no saber dónde conseguirlas. Incluso al propio
+                    álbum. Es que en la Argentina, por estos días, se agotó el coleccionable, y salvo la posibilidad de
+                    encontrarlas en algún mayorista o a precios superiores a los oficiales en sitios de comercio
+                    electrónico, no hay mucha opción. O sí: fomentar la paciencia a la espera de una nueva distribución.
                 </p>
             </div>
             <div class="subnoti">
-                <img src="imagenes/noticia-ecuador.jpg" alt="jugadores de ecuador" class="subnoti__img">
+                <img src="imagenes/noticia-entradas.jpg" alt="jugadores abrazados" class="subnoti__img" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200">
+                <p class="subnoti__parrafo">Conoce las formas de comprar las Entradas para ver a la seleccion en su
+                    debut Mundialista. <br> <br>
+                    FIFA reveló que todavía hay posibilidades de adquirir entradas y remarcó: "Aquellos hinchas que aún
+                    no tengan entradas, o quieran obtener localidades para otros encuentros y aprovechar así el carácter
+                    compacto del país, deberán permanecer atentos a FIFA.com/tickets a partir de finales de septiembre,
+                    momento en que se anunciará la fecha de inicio del periodo de venta de última hora".
+                </p>
+            </div>
+            <div class="subnoti">
+                <img src="imagenes/noticia-ecuador.jpg" alt="jugadores de ecuador" class="subnoti__img" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200">
                 <p class="subnoti__parrafo">Mira las nuevas camisetas de Ecuador para Qatar 2022 <br> <br>
-                    Alfaro recordó que cuando dio su primera rueda de prensa, tras ser contratado como seleccionador a finales de agosto del 2020, pidió la camiseta de La Tri, y cuando el directivo se la entregó le dijo: "Le entregamos la ilusión de un país entero, hoy el presidente Egas me dice una cosa igual".</p>
+                    Alfaro recordó que cuando dio su primera rueda de prensa, tras ser contratado como seleccionador a
+                    finales de agosto del 2020, pidió la camiseta de La Tri, y cuando el directivo se la entregó le
+                    dijo: "Le entregamos la ilusión de un país entero, hoy el presidente Egas me dice una cosa igual".
+                </p>
             </div>
         </section>
 
@@ -178,7 +197,10 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 

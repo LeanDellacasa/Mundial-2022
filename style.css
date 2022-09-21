@@ -20,18 +20,19 @@ body{
 
 /* header */
 
+header{
+    background: rgb(78,3,20);
+    background: linear-gradient(180deg, rgba(78,3,20,1) 0%, rgba(94,3,20,1) 100%);
+}
+
 nav{
-    background-color: #4e0314;
-    display:flex;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
 .header__img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 5rem;
+    padding: 2rem 0rem;
 }
 
 .box__shadow {
@@ -45,17 +46,23 @@ nav{
 }
 
 .nav__img {
-    width: 25rem;
-    height: 12rem;
+    width: 23rem;
+    height: 10rem;
     opacity: 0.85;
 }
 
+.nav__img:hover {
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
 ul {
-    width: 40%;
+    width: 45%;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     text-shadow: 3px 2px 3px rgb(0, 0, 0);
+    
 }
 
 a {
@@ -64,24 +71,29 @@ a {
     font-weight: bold;
     font-size: 2rem;
 }
-    a:hover {
+    li:hover {
     color: #d8a705;
-    transform: scale(1 00.5rem);
-    transition: all 1s;
-  }
+    transform: scale(1.5,1.5);
+    transition: all 1.5s;
+}
 
 .header__redes {
     width: 15%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-right: 2rem;
 }
 
 .nav__iconoSociales{
-    width: 5rem;
-    height: 5rem;
+    width: 4.5rem;
+    height: 4.5rem;
     padding: 1rem;
+}
+
+.nav__iconoSociales:hover{
+    transform: scale(1.8,1.8);
+    transition: all 1.5s;
 }
 
 /* Body */
@@ -91,28 +103,32 @@ a {
     text-shadow: 3px 2px 3px rgb(0, 0, 0);
 }
 
-/* section Noticia Principal y publi */
-
 .main__encabezado {
     display: flex;
     justify-content: space-between;
 }
 
+/* section Noticia Principal y publi */
+
 .section__noticia {
     width: 80%;
+    margin: auto 0rem;
 }
 
 .article__titulo {
-    padding: 2rem 5rem;
-    margin: 2.5rem 0px;
+    padding: 5rem 5rem;
     font-size: 4rem;
+    
 }
 
 .article__img {
-    margin-left: 5rem;
+    margin-left:5rem;
+    margin-top: 7rem;
     border-radius: 4rem;
     width: 110rem ;
     height: 60rem ;
+    animation: slideInLeft;
+    animation-duration: 2.5s;
 }
 
 .section__parrafo {
@@ -120,20 +136,24 @@ a {
     position: relative;
     bottom: 12rem;
     font-weight: 400;
+    animation: slideInLeft;
+    animation-duration: 2.5s;
 }
 
 .sponsor__img {
     width: 20rem;
-    height: 40rem;
-    
+    height: 45rem;
+    animation: slideInRight;
+    animation-duration: 2.5s;    
 }
 
 .section__sponsor {
-    padding: 2rem;
     width: 20%;
+    margin: auto 0rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    
+    
 }
 
 /* Section Subnoticias */
@@ -150,10 +170,12 @@ a {
 
 .subnoti__img {
     margin-left: 5rem;
-    width: 50rem;
+    width: 30rem;
     height: 25rem;
     border-radius: 3rem;
     border: solid 0.35rem aliceblue;
+    animation: flipInY;
+    animation-duration: 2s;
 }
 
 .subnoti__parrafo {
@@ -170,6 +192,8 @@ a {
     justify-content: center;
     flex-direction: column;
     border: outset 0.5rem #ffffff;
+    background: rgb(78,3,20);
+    background: linear-gradient(180deg, rgba(78,3,20,1) 0%, rgba(0,0,0,1) 100%);
 }
 
 .titulo__cuenta {
@@ -183,14 +207,14 @@ a {
     width: 100%;
 }  
 .cuenta__numeros { 
+    font-size: 2rem;
     color: #000;
     font-weight: bold;
     background-color: #eeeeee;
     padding: 2rem 2rem;
     border-radius: 50%;
-    border: solid 0.1rem #000;
-    text-shadow: none;
-    
+    border: solid 0.2rem rgb(104, 102, 102);
+    text-shadow: none;    
 }
 
 
@@ -228,21 +252,20 @@ a {
 .footer__ul {
     width: 100%;
     display: flex;
-    
     align-items: center;
     flex-wrap: wrap;
-    
 }
 
-.footer__ul a {
+.footer__ul li {
     font-size: medium;
-    color: black;
     text-decoration:underline;
     text-shadow: none;
 }
 
-.footer__ul a:hover {
-    color: #9c5503;
+.footer__ul li:hover {
+    color: #d8a705;
+    transform: scale(1.5, 1.5);
+    transition: all 2s;
   }
 
 .img__patrocinio{
