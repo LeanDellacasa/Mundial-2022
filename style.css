@@ -21,7 +21,6 @@ body{
 /* header */
 
 header{
-    background: rgb(78,3,20);
     background: linear-gradient(180deg, rgba(78,3,20,1) 0%, rgba(94,3,20,1) 100%);
 }
 
@@ -69,13 +68,10 @@ a {
 
 .header__redes {
     width: 15%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    
 }
 
 .nav__iconoSociales{
-    
     width: 2.5rem;
     height: 2.5rem;
 }
@@ -143,100 +139,61 @@ a {
 /* Cuenta Regresiva */
   
 .section__cuenta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     border: outset 0.5rem #ffffff;
     background: rgb(78,3,20);
     background: linear-gradient(180deg, rgba(78,3,20,1) 0%, rgba(0,0,0,1) 100%);
 }
-
 .titulo__cuenta {
     margin: 1rem;
     font-size: large;
 }
 .cuenta__regresiva {
     margin: 3rem auto;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
 }  
 .cuenta__numeros { 
     font-size: 2rem;
-    color: #000;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     background-color: #eeeeee;
     padding: 2rem 2rem;
     border-radius: 50%;
     border: solid 0.2rem rgb(104, 102, 102);
-    text-shadow: none;    
+    text-shadow: none;   
 }
-
-
 
 /* Footer */
 
 .footer-container {
-    background-color: #a47c8c;
+    background-color: #e0528b;
     color: black;
-    font-weight:bolder;
-    font-size: 1.6rem;
-    height: 15rem;
-    display: flex;
-    justify-content: space-between;
 }
 
-.footer__politicas {
-    width: 20%;
-    margin: 2rem 5rem;
-    display: flex;
-    flex-direction: column;
+.footer__li {
+    text-decoration: none;
+    text-shadow: none;
+    font-size: small;
+   
 }
 
-.footer__politicas h4 {
-    margin: 0.5rem 0rem;
-}
-
-.footer__enlaces {
-    width: 30%;
-    display: flex;
-    align-items: center;
+.footer_enlace {
+    text-decoration: none;
+    font-size: small;
     
 }
 
-.footer__ul {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
 
-.footer__ul li {
-    font-size: medium;
-    text-decoration:underline;
-    text-shadow: none;
-}
+
+
 
 .footer__ul li:hover {
-    color: #d8a705;
     transform: scale(1.5, 1.5);
     transition: all 2s;
   }
 
-.img__patrocinio{
-    
+.img__patrocinio{ 
     width: 5rem;
     height: 5rem;
     margin: 0px 2rem;
-}
-
-.footer__patrocinio {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1rem 0rem;
 }
 
 .patrocinio__titulo {
@@ -244,7 +201,7 @@ a {
 }
 
 .patrocinio__img {
-    height: 100%;
+    padding: 3rem 0px;
 }
 
 /* grupos page */

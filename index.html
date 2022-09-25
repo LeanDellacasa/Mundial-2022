@@ -11,16 +11,15 @@
     <!-- Animaciones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- Hoja de Estilos -->
-    <!-- CSS only -->
+    <!-- Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Hoja de Estilos -->
     <link rel="stylesheet" href="style.css">
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-
     <title>Qatar 2022</title>
 </head>
 
@@ -28,7 +27,7 @@
 
 <body>
 
-    <header class="container-fluid">
+    <header class="container-fluid bg-rgb(78,3,20)">
 
         <nav class="navbar container-fluid">
 
@@ -36,7 +35,7 @@
 
             <div class="row container-fluid">
                 <div class="col-md-3 header__img d-flex justify-content-center">
-                    <img src="imagenes/header.jpeg" class="img-fluid nav__img box__shadow" alt="pelota y bandera">
+                    <a href="index.html"><img src="imagenes/header.jpeg" class="img-fluid nav__img box__shadow" alt="pelota y bandera"></a>
                 </div>
 
                 <!-- Lista Nav -->
@@ -54,7 +53,7 @@
                 <!-- Redes Sociales -->
 
                 <div class="col-md-3 d-flex justify-content-center">
-                    <div class="header__redes">
+                    <div class="header__redes d-flex justify-content-around align-items-center">
 
                         <div class="redes__face">
                             <a href="https://www.facebook.com/fifa">
@@ -83,7 +82,9 @@
     <!-- Main -->
 
     <main class="main-container">
+
         <!-- Noticia Principal -->
+
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
@@ -107,7 +108,6 @@
                                 inaugurar el último de los estadios que faltaban de cara a la Copa del Mundo: Lusail
                             </p>
                         </div>
-
                     </section>
                 </div>
 
@@ -115,132 +115,158 @@
 
                 <div class="col-md-4 d-flex justify-content-center align-items-center">
                     <section class="section__sponsor d-flex justify-content-center align-items-center">
-
                         <img src="imagenes/sponsor.jpg" alt="sponsor nike" class="img-fluid sponsor__img box__shadow">
-
                     </section>
                 </div>
             </div>
         </div>
-
         </div>
 
         <!-- Noticias Secundarias -->
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="imagenes/album.jpeg" alt="album del mundial" class="img-fluid subnoti__img" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200">
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="imagenes/album.jpeg" alt="album del mundial" class="img-fluid subnoti__img" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200">
+                    </div>
+                    <div class="col-md-9">
+                        <p class="subnoti__parrafo"><b>"No hay mas".</b> <br> <br>
+                            El Mundial Qatar 2022 “se prendió”. Faltan casi 90 días para que la pelota empiece a rodar
+                            oficialmente en la cancha, pero ya empezó otra contienda: la de las figuritas. Y parece que
+                            se
+                            juega
+                            en un grupo difícil. El deseo por conseguirlas mutó en poco días con estas emociones: de la
+                            alegría
+                            por tener los primeros cromos, a la angustia de no saber dónde conseguirlas. Incluso al
+                            propio
+                            álbum. Es que en la Argentina, por estos días, se agotó el coleccionable, y salvo la
+                            posibilidad
+                            de
+                            encontrarlas en algún mayorista o a precios superiores a los oficiales en sitios de comercio
+                            electrónico, no hay mucha opción. O sí: fomentar la paciencia a la espera de una nueva
+                            distribución.
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-9">
-                    <p class="subnoti__parrafo">"No hay mas". <br> <br>
-                        El Mundial Qatar 2022 “se prendió”. Faltan casi 90 días para que la pelota empiece a rodar
-                        oficialmente en la cancha, pero ya empezó otra contienda: la de las figuritas. Y parece que se
-                        juega
-                        en un grupo difícil. El deseo por conseguirlas mutó en poco días con estas emociones: de la
-                        alegría
-                        por tener los primeros cromos, a la angustia de no saber dónde conseguirlas. Incluso al propio
-                        álbum. Es que en la Argentina, por estos días, se agotó el coleccionable, y salvo la posibilidad
-                        de
-                        encontrarlas en algún mayorista o a precios superiores a los oficiales en sitios de comercio
-                        electrónico, no hay mucha opción. O sí: fomentar la paciencia a la espera de una nueva
-                        distribución.
-                    </p>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="imagenes/noticia-entradas.jpg" alt="jugadores abrazados"
+                            class="img-fluid subnoti__img" data-aos="flip-left" data-aos-duration="2000"
+                            data-aos-delay="200">
+                    </div>
+                    <div class="col-md-9">
+                        <p class="subnoti__parrafo"><b>Conoce las formas de comprar las Entradas para ver a la seleccion en
+                            su
+                            debut Mundialista.</b> <br> <br>
+                            FIFA reveló que todavía hay posibilidades de adquirir entradas y remarcó: "Aquellos hinchas
+                            que aún
+                            no tengan entradas, o quieran obtener localidades para otros encuentros y aprovechar así el
+                            carácter
+                            compacto del país, deberán permanecer atentos a FIFA.com/tickets a partir de finales de
+                            septiembre,
+                            momento en que se anunciará la fecha de inicio del periodo de venta de última hora".
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="imagenes/noticia-ecuador.jpg" alt="jugadores de ecuador"
+                            class="img-fluid subnoti__img" data-aos="flip-left" data-aos-duration="2000"
+                            data-aos-delay="200">
+                    </div>
+                    <div class="col-md-9">
+                        <p class="subnoti__parrafo"><b>Mira las nuevas camisetas de Ecuador para Qatar 2022 </b> <br> <br>
+                            Alfaro recordó que cuando dio su primera rueda de prensa, tras ser contratado como
+                            seleccionador a
+                            finales de agosto del 2020, pidió la camiseta de La Tri, y cuando el directivo se la entregó
+                            le
+                            dijo: "Le entregamos la ilusión de un país entero, hoy el presidente Egas me dice una cosa
+                            igual".
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="imagenes/noticia-entradas.jpg" alt="jugadores abrazados" class="img-fluid subnoti__img" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200">
-                </div>
-                <div class="col-md-9">
-                    <p class="subnoti__parrafo">Conoce las formas de comprar las Entradas para ver a la seleccion en su
-                        debut Mundialista. <br> <br>
-                        FIFA reveló que todavía hay posibilidades de adquirir entradas y remarcó: "Aquellos hinchas que aún
-                        no tengan entradas, o quieran obtener localidades para otros encuentros y aprovechar así el carácter
-                        compacto del país, deberán permanecer atentos a FIFA.com/tickets a partir de finales de septiembre,
-                        momento en que se anunciará la fecha de inicio del periodo de venta de última hora".
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="imagenes/noticia-ecuador.jpg" alt="jugadores de ecuador" class="img-fluid subnoti__img" data-aos="flip-left"
-                data-aos-duration="2000" data-aos-delay="200">
-                </div>
-                <div class="col-md-9">
-                    <p class="subnoti__parrafo">Mira las nuevas camisetas de Ecuador para Qatar 2022 <br> <br>
-                        Alfaro recordó que cuando dio su primera rueda de prensa, tras ser contratado como seleccionador a
-                        finales de agosto del 2020, pidió la camiseta de La Tri, y cuando el directivo se la entregó le
-                        dijo: "Le entregamos la ilusión de un país entero, hoy el presidente Egas me dice una cosa igual".
-                    </p>
-                </div>
-            </div>
-        </div>
         </section>
 
         <!-- Cuenta regresiva -->
-        <section class="section__cuenta">
-            <h5 class="titulo__cuenta">FALTAN</h5>
-            <div class="cuenta__regresiva">
-                <div class="cuenta__numeros">
-                    <p class="">99</p>
-                </div>
 
-                <div class="cuenta__numeros">
-                    <p class="">99</p>
-                </div>
-
-                <div class="cuenta__numeros">
-                    <p class="">99</p>
+        <div class="container-fluid section__cuenta">
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <h5 class="titulo__cuenta">FALTAN</h5>
                 </div>
             </div>
-        </section>
+            <div class="cuenta__regresiva d-flex justify-content-around">
+                <div class="cuenta__numeros">
+                    <p>99</p>
+                </div>
+
+                <div class="cuenta__numeros">
+                    <p>99</p>
+                </div>
+
+                <div class="cuenta__numeros">
+                    <p>99</p>
+                </div>
+            </div>
+        </div>
     </main>
 
     <!-- Footer -->
 
-    <footer class="footer-container">
+    <div class="container-fluid footer-container">
+
         <!-- Politicas de privacidad -->
 
-        <div class="footer__politicas">
-
-            <h4>Politicas de Privacidad</h4>
-            <h4>Terminos y Condiciones</h4>
-            <h4>Copyrigth®</h4>
-        </div>
-
-        <!-- Enlaces -->
-
-        <div class="footer__enlaces">
-            <ul class="footer__ul">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/grupos.html">Grupos</a></li>
-                <li><a href="pages/estadios.html">Estadios</a></li>
-                <li><a href="pages/aficion.html">Aficion</a></li>
-                <li><a href="pages/participa.html">Participa</a></li>
-            </ul>
-        </div>
-
-        <!-- Patrocinadores -->
-
-        <div class="footer__patrocinio">
-
-            <div class="patrocinio__titulo">
-                <h4>Patrocinadores Oficiales</h4>
+        <div class="row">
+            <div class="col-md-2 d-flex flex-column justify-content-around">
+                <h3>Politicas de Privacidad</h3>
+                <h3>Terminos y Condiciones</h3>
+                <h3>Copyrigth®</h3>
             </div>
 
-            <div class="patrocinio__img">
-                <img src="imagenes/nike.jpg" alt="nike" class="img__patrocinio box__shadow">
-                <img src="imagenes/emirates.png" alt="emirates-airlines" class="img__patrocinio box__shadow">
-                <img src="imagenes/givenchy.jpg" alt="givenchy" class="img__patrocinio box__shadow">
-                <img src="imagenes/visa.jpg" alt="visa" class="img__patrocinio box__shadow">
-                <img src="imagenes/mastercard.jpg" alt="mastercard" class="img__patrocinio box__shadow">
-                <img src="imagenes/rolex.jpg" alt="rolex" class="img__patrocinio box__shadow">
+            <!-- Enlaces -->
+
+            <div class="col-md-4 d-flex justify-content-around align-items-center">
+                <ul class="nav d-flex justify-content-center ">
+                    <li class="footer__li">
+                        <a class="footer__enlace" href="index.html">Inicio</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__enlace" href="pages/grupos.html">Grupos</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__enlace" href="pages/estadios.html">Estadios</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__enlace" href="pages/aficion.html">Aficion</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__enlace" href="pages/participa.html">Participa</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Patrocinadores -->
+
+            <div class="col-md-6">
+                <div class="patrocinio__titulo d-flex justify-content-center">
+                    <h4>Patrocinadores Oficiales</h4>
+                </div>
+    
+                <div class="patrocinio__img d-flex justify-content-center">
+                    <img src="imagenes/nike.jpg" alt="nike" class="img-fluid img__patrocinio box__shadow">
+                    <img src="imagenes/emirates.png" alt="emirates-airlines" class="img-fluid img__patrocinio box__shadow">
+                    <img src="imagenes/cocacola.png" alt="cocacola" class="img-fluid img__patrocinio box__shadow">
+                    <img src="imagenes/visa.jpg" alt="visa" class="img-fluid img__patrocinio box__shadow">
+                    <img src="imagenes/mastercard.jpg" alt="mastercard" class="img-fluid img__patrocinio box__shadow">
+                    <img src="imagenes/heineken.jpg" alt="heineken" class="img-fluid img__patrocinio box__shadow">
+                </div>
             </div>
         </div>
-    </footer>
+    </div>
 
-
+    <!-- Scripst -->
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
