@@ -12,62 +12,71 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Hoja de Estilos -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    
+
     <title>Qatar 2022</title>
 </head>
 
 <!-- Body -->
 
-<body class="body-container">
+<body>
 
-    <header>
+    <header class="container-fluid">
 
-        <nav class="header__nav">
+        <nav class="navbar container-fluid">
 
             <!-- Imagen Nav -->
-            <div class="header__img">
-                <img src="imagenes/header.jpeg" alt="pelota y bandera" class="nav__img box__shadow">
-            </div>
 
-            <!-- Lista Nav -->
-            <ul class="header__ul">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/grupos.html">Grupos</a></li>
-                <li><a href="pages/estadios.html">Estadios</a></li>
-                <li><a href="pages/aficion.html">Afición</a></li>
-                <li><a href="pages/participa.html">Participa</a></li>
-            </ul>
-
-            <!-- Redes Sociales -->
-            <div class="header__redes">
-
-                <div class="redes__face">
-                    <a href="https://www.facebook.com/fifa">
-                        <img src="imagenes/facebook.png" alt="facebook" class="nav__iconoSociales">
-                    </a>
-                </div>
-                <div class="redes__twitter">
-                    <a href="https://twitter.com/FIFAcom">
-                        <img src="imagenes/twitter.png" alt="twitter" class="nav__iconoSociales">
-                    </a>
-                </div>
-                <div class="redes__instagram">
-                    <a href="https://www.instagram.com/fifaworldcup/">
-                        <img src="imagenes/instagram.png" alt="instagram" class="nav__iconoSociales">
-                    </a>
-                </div>
-                <div class="redes__youtube">
-                    <a href="https://www.youtube.com/FIFATV">
-                        <img src="imagenes/youtube.png" alt="youtube" class="nav__iconoSociales">
-                    </a>
+            <div class="row container-fluid">
+                <div class="col-md-3 header__img d-flex justify-content-center">
+                    <img src="imagenes/header.jpeg" class="img-fluid nav__img box__shadow" alt="pelota y bandera">
                 </div>
 
-            </div>
+                <!-- Lista Nav -->
+
+                <div class="col-md-6 d-flex justify-content-center">
+                    <ul class="header__ul d-flex ">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="pages/grupos.html">Grupos</a></li>
+                        <li><a href="pages/estadios.html">Estadios</a></li>
+                        <li><a href="pages/aficion.html">Afición</a></li>
+                        <li><a href="pages/participa.html">Participa</a></li>
+                    </ul>
+                </div>
+
+                <!-- Redes Sociales -->
+
+                <div class="col-md-3 d-flex justify-content-center">
+                    <div class="header__redes">
+
+                        <div class="redes__face">
+                            <a href="https://www.facebook.com/fifa">
+                                <img src="imagenes/facebook.png" alt="facebook" class="nav__iconoSociales img-fluid">
+                            </a>
+                        </div>
+                        <div class="redes__twitter">
+                            <a href="https://twitter.com/FIFAcom">
+                                <img src="imagenes/twitter.png" alt="twitter" class="nav__iconoSociales img-fluid">
+                            </a>
+                        </div>
+                        <div class="redes__instagram">
+                            <a href="https://www.instagram.com/fifaworldcup/">
+                                <img src="imagenes/instagram.png" alt="instagram" class="nav__iconoSociales img-fluid">
+                            </a>
+                        </div>
+                        <div class="redes__youtube">
+                            <a href="https://www.youtube.com/FIFATV">
+                                <img src="imagenes/youtube.png" alt="youtube" class="nav__iconoSociales img-fluid">
+                            </a>
+                        </div>
+                    </div>
         </nav>
     </header>
 
@@ -75,62 +84,98 @@
 
     <main class="main-container">
         <!-- Noticia Principal -->
-        <h1 class="article__titulo">Noticias Qatar 2022</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="article__titulo">Noticias Qatar 2022</h1>
+                </div>
+            </div>
+        </div>
 
-        <div class="main__encabezado">
-            <section class="section__noticia">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <section>
 
-                <img src="imagenes/estadio-lusail.jpeg" alt="estadio-lusail" class="article__img box__shadow">
+                        <img src="imagenes/estadio-lusail.jpeg" alt="estadio-lusail"
+                            class="img-fluid article__img box__shadow">
 
-                <div class="section__parrafo">
-                    <h2>Se inagura el nuevo estadio Lusail</h2>
-                    <p>A pocos meses del comienzo del Mundial Qatar 2022, el comité organizativo se dispone a <br>
-                        inaugurar el último de los estadios que faltaban de cara a la Copa del Mundo: Lusail</p>
+                        <div class="section__parrafo">
+                            <h2>Se inagura el nuevo estadio Lusail</h2>
+                            <p>A pocos meses del comienzo del Mundial Qatar 2022, el comité organizativo se dispone a
+                                <br>
+                                inaugurar el último de los estadios que faltaban de cara a la Copa del Mundo: Lusail
+                            </p>
+                        </div>
+
+                    </section>
                 </div>
 
-            </section>
+                <!-- Publicidad -->
 
-            <!-- Publicidad -->
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <section class="section__sponsor d-flex justify-content-center align-items-center">
 
-            <section class="section__sponsor">
+                        <img src="imagenes/sponsor.jpg" alt="sponsor nike" class="img-fluid sponsor__img box__shadow">
 
-                <img src="imagenes/sponsor.jpg" alt="sponsor nike" class="sponsor__img box__shadow">
-            </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+
         </div>
 
         <!-- Noticias Secundarias -->
 
-        <section class="section__subnoticias">
-            <div class="subnoti">
-                <img src="imagenes/album.jpeg" alt="album del mundial" class="subnoti__img" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200">
-                <p class="subnoti__parrafo">"No hay mas". <br> <br>
-                    El Mundial Qatar 2022 “se prendió”. Faltan casi 90 días para que la pelota empiece a rodar
-                    oficialmente en la cancha, pero ya empezó otra contienda: la de las figuritas. Y parece que se juega
-                    en un grupo difícil. El deseo por conseguirlas mutó en poco días con estas emociones: de la alegría
-                    por tener los primeros cromos, a la angustia de no saber dónde conseguirlas. Incluso al propio
-                    álbum. Es que en la Argentina, por estos días, se agotó el coleccionable, y salvo la posibilidad de
-                    encontrarlas en algún mayorista o a precios superiores a los oficiales en sitios de comercio
-                    electrónico, no hay mucha opción. O sí: fomentar la paciencia a la espera de una nueva distribución.
-                </p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="imagenes/album.jpeg" alt="album del mundial" class="img-fluid subnoti__img" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200">
+                </div>
+                <div class="col-md-9">
+                    <p class="subnoti__parrafo">"No hay mas". <br> <br>
+                        El Mundial Qatar 2022 “se prendió”. Faltan casi 90 días para que la pelota empiece a rodar
+                        oficialmente en la cancha, pero ya empezó otra contienda: la de las figuritas. Y parece que se
+                        juega
+                        en un grupo difícil. El deseo por conseguirlas mutó en poco días con estas emociones: de la
+                        alegría
+                        por tener los primeros cromos, a la angustia de no saber dónde conseguirlas. Incluso al propio
+                        álbum. Es que en la Argentina, por estos días, se agotó el coleccionable, y salvo la posibilidad
+                        de
+                        encontrarlas en algún mayorista o a precios superiores a los oficiales en sitios de comercio
+                        electrónico, no hay mucha opción. O sí: fomentar la paciencia a la espera de una nueva
+                        distribución.
+                    </p>
+                </div>
             </div>
-            <div class="subnoti">
-                <img src="imagenes/noticia-entradas.jpg" alt="jugadores abrazados" class="subnoti__img" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200">
-                <p class="subnoti__parrafo">Conoce las formas de comprar las Entradas para ver a la seleccion en su
-                    debut Mundialista. <br> <br>
-                    FIFA reveló que todavía hay posibilidades de adquirir entradas y remarcó: "Aquellos hinchas que aún
-                    no tengan entradas, o quieran obtener localidades para otros encuentros y aprovechar así el carácter
-                    compacto del país, deberán permanecer atentos a FIFA.com/tickets a partir de finales de septiembre,
-                    momento en que se anunciará la fecha de inicio del periodo de venta de última hora".
-                </p>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="imagenes/noticia-entradas.jpg" alt="jugadores abrazados" class="img-fluid subnoti__img" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200">
+                </div>
+                <div class="col-md-9">
+                    <p class="subnoti__parrafo">Conoce las formas de comprar las Entradas para ver a la seleccion en su
+                        debut Mundialista. <br> <br>
+                        FIFA reveló que todavía hay posibilidades de adquirir entradas y remarcó: "Aquellos hinchas que aún
+                        no tengan entradas, o quieran obtener localidades para otros encuentros y aprovechar así el carácter
+                        compacto del país, deberán permanecer atentos a FIFA.com/tickets a partir de finales de septiembre,
+                        momento en que se anunciará la fecha de inicio del periodo de venta de última hora".
+                    </p>
+                </div>
             </div>
-            <div class="subnoti">
-                <img src="imagenes/noticia-ecuador.jpg" alt="jugadores de ecuador" class="subnoti__img" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200">
-                <p class="subnoti__parrafo">Mira las nuevas camisetas de Ecuador para Qatar 2022 <br> <br>
-                    Alfaro recordó que cuando dio su primera rueda de prensa, tras ser contratado como seleccionador a
-                    finales de agosto del 2020, pidió la camiseta de La Tri, y cuando el directivo se la entregó le
-                    dijo: "Le entregamos la ilusión de un país entero, hoy el presidente Egas me dice una cosa igual".
-                </p>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="imagenes/noticia-ecuador.jpg" alt="jugadores de ecuador" class="img-fluid subnoti__img" data-aos="flip-left"
+                data-aos-duration="2000" data-aos-delay="200">
+                </div>
+                <div class="col-md-9">
+                    <p class="subnoti__parrafo">Mira las nuevas camisetas de Ecuador para Qatar 2022 <br> <br>
+                        Alfaro recordó que cuando dio su primera rueda de prensa, tras ser contratado como seleccionador a
+                        finales de agosto del 2020, pidió la camiseta de La Tri, y cuando el directivo se la entregó le
+                        dijo: "Le entregamos la ilusión de un país entero, hoy el presidente Egas me dice una cosa igual".
+                    </p>
+                </div>
             </div>
+        </div>
         </section>
 
         <!-- Cuenta regresiva -->
@@ -200,7 +245,14 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
 
 </body>
 

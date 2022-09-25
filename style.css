@@ -25,14 +25,8 @@ header{
     background: linear-gradient(180deg, rgba(78,3,20,1) 0%, rgba(94,3,20,1) 100%);
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .header__img {
-    padding: 2rem 0rem;
+    padding: 2rem 5rem;
 }
 
 .box__shadow {
@@ -57,22 +51,18 @@ nav{
 }
 
 ul {
-    width: 45%;
     list-style-type: none;
-    display: flex;
-    justify-content: space-between;
     text-shadow: 3px 2px 3px rgb(0, 0, 0);
-    
 }
 
 a {
     color: inherit;
+    margin: 0px 3rem;
     text-decoration: none;
     font-weight: bold;
     font-size: 2rem;
 }
     li:hover {
-    color: #d8a705;
     transform: scale(1.5,1.5);
     transition: all 1.5s;
 }
@@ -82,13 +72,12 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-right: 2rem;
 }
 
 .nav__iconoSociales{
-    width: 4.5rem;
-    height: 4.5rem;
-    padding: 1rem;
+    
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .nav__iconoSociales:hover{
@@ -98,35 +87,21 @@ a {
 
 /* Body */
 
-
 .main-container {
     text-shadow: 3px 2px 3px rgb(0, 0, 0);
 }
 
-.main__encabezado {
-    display: flex;
-    justify-content: space-between;
-}
-
 /* section Noticia Principal y publi */
-
-.section__noticia {
-    width: 80%;
-    margin: auto 0rem;
-}
 
 .article__titulo {
     padding: 5rem 5rem;
     font-size: 4rem;
-    
 }
 
 .article__img {
     margin-left:5rem;
-    margin-top: 7rem;
+    margin-top: 1rem;
     border-radius: 4rem;
-    width: 110rem ;
-    height: 60rem ;
     animation: slideInLeft;
     animation-duration: 2.5s;
 }
@@ -147,29 +122,12 @@ a {
     animation-duration: 2.5s;    
 }
 
-.section__sponsor {
-    width: 20%;
-    margin: auto 0rem;
-    display: flex;
-    align-items: flex-start;
-    
-    
-}
-
 /* Section Subnoticias */
-
-.section__subnoticias{
-    display: flex;
-    flex-direction: column;
-}
-
-.subnoti {
-    display: flex;
-    margin: 2rem 0rem;
-}
 
 .subnoti__img {
     margin-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 30rem;
     height: 25rem;
     border-radius: 3rem;
@@ -180,11 +138,9 @@ a {
 
 .subnoti__parrafo {
     margin: 5rem;
-    font-weight: 400;    
 }
 
 /* Cuenta Regresiva */
-
   
 .section__cuenta {
     display: flex;
