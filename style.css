@@ -324,4 +324,71 @@ margin: 0rem auto
     display: flex;
     justify-content: center;
 }
+
+/* Media Query */
+
+@media (max-width: 1024px){
+    img.article__img {
+        margin: 0px auto;
+        width: 98%;
+    }
+    h1.article__titulo{
+        font-size: 3.5rem;
+    }
+    img.subnoti__img {
+        margin: 0px auto;
+    }
+    p.subnoti__parrafo{
+        font-size: 1.3rem;
+    }
+    div.patrocinio__width {
+        width: 70%;
+    }
+    div.politicas__width {
+        width: 30%;
+    }
+    h3.politicas {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        margin:0px auto;
+    }
+    a{
+        font-size: 1.2rem;
+        margin: 0px auto;
+        padding: 1rem;
+    }
+    h1.article__titulo {
+        font-size: 2.1rem;
+        display: flex;
+        justify-content: center;
+    }
+    .section__parrafo{
+        padding-left: 0rem ;
+        position: inherit;
+        bottom: 0rem;
+        font-size: 1rem;
+        margin-top: 2rem; 
+        margin-bottom: 2rem;
+    }
+    .subnoti__parrafo {
+        font-size: 1.2rem;
+    }
+    img.subnoti__img {
+        width: 15rem;
+        height: 15rem;
+        display: flex;
+        justify-content: center;
+    }
+    img.img__patrocinio {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    img.g1 {
+        display: none;
+    }
+}
  
