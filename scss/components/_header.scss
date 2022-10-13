@@ -1,0 +1,59 @@
+@import '../base/variables';
+
+header {
+    background: $bg-color-header;
+}
+    .header__img {
+        padding: 2rem 5rem;
+    }
+
+    .box__shadow{
+        box-shadow: 1px -1px 12px 4px #ffffff;
+        -webkit-box-shadow: 1px -1px 12px 4px #ffffff;
+        -moz-box-shadow: 1px -1px 12px 4px #ffffff; ;
+    }
+
+    .margin__center {
+        margin: $margin-center;
+    }
+
+    .nav__img {
+        width: 23rem;
+        height: 10rem;
+        opacity: 0.85;
+
+        &:hover {
+            transform: scale(1.2);
+            transition: all 2s;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        text-shadow: 3px 2px 3px rgb(0, 0, 0);
+    }
+        a{
+            color: inherit;
+            margin: 0px 3rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+            li:hover {
+                transform: scale(1.5,1.5);
+                transition: all 1.5s;
+            }
+    
+    .header__redes {
+        width: 15%;
+    }
+
+    .nav__iconoSociales{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .nav__iconoSociales:hover{
+        transform: scale(1.8,1.8);
+        transition: all 1.5s;
+    }

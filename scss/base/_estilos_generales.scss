@@ -1,0 +1,25 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    html {
+        font-size: 62.5%;
+    }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.6rem;
+            color:#ffffff;
+            background-image: url(../../imagenes/fondo.jpeg);
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+            .main-container {
+                text-shadow: 3px 2px 3px rgb(0, 0, 0);
+            }

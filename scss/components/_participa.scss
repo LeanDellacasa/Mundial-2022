@@ -1,0 +1,60 @@
+
+
+.main-container-participa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 0px 1px rgb(0, 0, 0);
+    color: #c7b9bf;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+    .participa__titulo {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+        .participa__form {
+            width: 65%;
+        }
+
+        .participa__titulo h2 {
+            margin: 0rem auto;
+            
+        }
+
+            .formulario {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                margin: 2rem 0rem;
+                border: solid 0.5rem #daa301;
+                border-radius: 2rem;
+                background: rgb(158,10,44);
+                background: linear-gradient(175deg, rgba(158,10,44,1) 56%, rgba(138,149,151,1) 100%);
+            }
+
+                .text__form {
+                    margin: 0rem auto
+                }
+
+                .form__input {
+                    margin: 2rem auto;
+                    width: 100%;
+                    height: 3rem;
+                }
+
+                    #btn {
+                        margin: 2rem auto;
+                        width: 12rem;
+                        border-radius: 1rem;
+                    }
+
+                    #buttom {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
