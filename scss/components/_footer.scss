@@ -1,8 +1,9 @@
 @import '../base/variables';
+@import '../base/listas';
 
 .footer-container {
-    background-color: #e0528b;
-    color: black;
+    background-color: nth($colores, 8 );
+    color: nth($colores, 2 );
 }
 
     .footer__li {
@@ -34,4 +35,6 @@
             height: 5rem;
             margin: 0px 2rem;
         }
+
+
     

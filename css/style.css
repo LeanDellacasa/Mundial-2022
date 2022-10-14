@@ -1,36 +1,25 @@
-.footer-container {
-  background-color: #e0528b;
-  color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.footer__li {
-  text-decoration: none;
-  text-shadow: none;
-  font-size: small;
+html {
+  font-size: 62.5%;
 }
 
-.footer_enlace {
-  text-decoration: none;
-  font-size: small;
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  color: #ffffff;
+  background-image: url(../../imagenes/fondo.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.footer__ul li:hover {
-  transform: scale(1.5, 1.5);
-  transition: all 2s;
-}
-
-.patrocinio__titulo {
-  padding: 1rem;
-}
-
-.patrocinio__img {
-  padding: 3rem 0px;
-}
-
-.img__patrocinio {
-  width: 5rem;
-  height: 5rem;
-  margin: 0px 2rem;
+.main-container {
+  text-shadow: 3px 2px 3px rgb(0, 0, 0);
 }
 
 header {
@@ -157,23 +146,54 @@ li:hover {
   font-size: 2rem;
   color: rgb(0, 0, 0);
   font-weight: bold;
-  background-color: #eeeeee;
+  background-color: aliceblue;
   padding: 2rem 2rem;
   border-radius: 50%;
   border: solid 0.2rem rgb(104, 102, 102);
   text-shadow: none;
 }
 
+#img__grupos {
+  width: 100%;
+  height: 100%;
+}
+
+.main-container-estadios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-shadow: 1px 0px 1px rgb(0, 0, 0);
+  color: inherit;
+  font-size: 1.6rem;
+}
+
+.main__videos {
+  margin: 2rem;
+}
+
+.main__parrafos {
+  width: 55%;
+  margin: 2rem;
+  background: rgb(158, 10, 44);
+  background: radial-gradient(circle, rgb(158, 10, 44) 0%, rgb(0, 0, 0) 89%);
+  border: double 0.5rem aliceblue;
+}
+.main__parrafos p {
+  margin: 0rem auto;
+}
+
 .main-container-aficion {
   display: flex;
   flex-wrap: unset;
+  justify-content: center;
   text-shadow: 3px 2px 3px rgb(0, 0, 0);
 }
 
 .main__img {
   width: 33%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-betweem;
+  align-items: center;
   margin: 1rem 1rem;
   border-radius: 5rem;
   border-style: outset;
@@ -185,42 +205,13 @@ li:hover {
   border-radius: 5rem;
 }
 
-.main-container-estadios {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-shadow: 1px 0px 1px rgb(0, 0, 0);
-  color: inherit;
-  font-size: 1.5rem;
-}
-
-.main__videos {
-  margin: 2rem;
-}
-
-.main__parrafos {
-  width: 55%;
-  margin: 2rem;
-  background: rgb(158, 10, 44);
-  background: radial-gradient(circle, rgb(158, 10, 44) 0%, rgb(32, 32, 32) 89%);
-  border: double 0.5rem #fcf8f9;
-}
-.main__parrafos p {
-  margin: 0rem auto;
-}
-
-#img__grupos {
-  width: 100%;
-  height: 100%;
-}
-
 .main-container-participa {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-shadow: 1px 0px 1px rgb(0, 0, 0);
-  color: #c7b9bf;
+  color: aliceblue;
   font-size: 2rem;
   padding: 2rem;
 }
@@ -242,12 +233,13 @@ li:hover {
 .formulario {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   margin: 2rem 0rem;
   border: solid 0.5rem #daa301;
   border-radius: 2rem;
   background: rgb(158, 10, 44);
-  background: linear-gradient(175deg, rgb(158, 10, 44) 56%, rgb(138, 149, 151) 100%);
+  background: linear-gradient(175deg, rgb(158, 10, 44) 56%, rgb(104, 102, 102) 100%);
 }
 
 .text__form {
@@ -269,30 +261,135 @@ li:hover {
 #buttom {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.footer-container {
+  background-color: #e0528b;
+  color: rgb(0, 0, 0);
 }
 
-html {
-  font-size: 62.5%;
+.footer__li {
+  text-decoration: none;
+  text-shadow: none;
+  font-size: small;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.6rem;
-  color: #ffffff;
-  background-image: url(../../imagenes/fondo.jpeg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+.footer_enlace {
+  text-decoration: none;
+  font-size: small;
 }
 
-.main-container {
-  text-shadow: 3px 2px 3px rgb(0, 0, 0);
+.footer__ul li:hover {
+  transform: scale(1.5, 1.5);
+  transition: all 2s;
+}
+
+.patrocinio__titulo {
+  padding: 1rem;
+}
+
+.patrocinio__img {
+  padding: 3rem 0px;
+}
+
+.img__patrocinio {
+  width: 5rem;
+  height: 5rem;
+  margin: 0px 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  img.article__img {
+    margin: 0rem auto;
+    width: 98%;
+  }
+  h1.article__titulo {
+    font-size: 4rem;
+  }
+  img.subnoti__img {
+    margin: 0rem auto;
+  }
+  p.subnoti__parrafo {
+    font-size: 1.2rem;
+  }
+  div.patrocinio__width {
+    width: 70%;
+  }
+  div.politicas__width {
+    width: 30%;
+  }
+  h3.politicas {
+    font-size: 1.2rem;
+  }
+  div iframe {
+    width: 700px;
+    height: 318px;
+  }
+  div.main__parrafos {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 425px) {
+  body {
+    margin: 0rem auto;
+  }
+  a {
+    font-size: 1.2rem;
+    margin: 0rem auto;
+    padding: 1rem;
+  }
+  h1.article__titulo {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  .section__parrafo {
+    padding-left: 0rem;
+    position: inherit;
+    bottom: 0rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .subnoti__parrafo {
+    font-size: 1.2rem;
+  }
+  img.subnoti__img {
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img.img__patrocinio {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  img.g1 {
+    display: none;
+  }
+  h5.titulo__cuenta {
+    font-size: 1.2rem;
+  }
+  p.numeros {
+    font-size: 1.2rem;
+  }
+  div.patrocinio__titulo {
+    font-size: 1.2rem;
+  }
+  div.politicas__width {
+    font-size: 1.2rem;
+  }
+  div iframe {
+    width: 100%;
+    height: 218px;
+  }
+  div.main__parrafos {
+    font-size: 1.2rem;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

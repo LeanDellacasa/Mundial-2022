@@ -1,13 +1,12 @@
-
+@import '../base/variables';
+@import '../base/listas';
 
 .main-container-participa {
-    display: flex;
+    @include display-flex(flex, center, center);
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-shadow: 1px 0px 1px rgb(0, 0, 0);
-    color: #c7b9bf;
-    font-size: 2rem;
+    text-shadow: 1px 0px 1px nth($colores, 2 );
+    color: nth($colores, 4 );
+    font-size: nth($font-size, 3 );
     padding: 2rem;
 }
 
@@ -22,23 +21,22 @@
         }
 
         .participa__titulo h2 {
-            margin: 0rem auto;
+            margin: $margin-center;
             
         }
 
             .formulario {
-                display: flex;
-                justify-content: center;
+                @include display-flex(flex, center, center);
                 width: 100%;
                 margin: 2rem 0rem;
-                border: solid 0.5rem #daa301;
+                border: solid 0.5rem nth($colores,7 );
                 border-radius: 2rem;
-                background: rgb(158,10,44);
-                background: linear-gradient(175deg, rgba(158,10,44,1) 56%, rgba(138,149,151,1) 100%);
+                background: nth($colores,6 );
+                background: linear-gradient(175deg, nth($colores,6 ) 56%, nth($colores,5 ) 100%);
             }
 
                 .text__form {
-                    margin: 0rem auto
+                    margin: $margin-center;
                 }
 
                 .form__input {
@@ -54,7 +52,6 @@
                     }
 
                     #buttom {
-                        display: flex;
-                        justify-content: center;
+                        @include display-flex(flex, center, center);
                     }
                     

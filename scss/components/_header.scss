@@ -1,4 +1,5 @@
 @import '../base/variables';
+@import '../base/listas';
 
 header {
     background: $bg-color-header;
@@ -8,9 +9,9 @@ header {
     }
 
     .box__shadow{
-        box-shadow: 1px -1px 12px 4px #ffffff;
-        -webkit-box-shadow: 1px -1px 12px 4px #ffffff;
-        -moz-box-shadow: 1px -1px 12px 4px #ffffff; ;
+        box-shadow: 1px -1px 12px 4px nth($colores, 1 );
+        -webkit-box-shadow: 1px -1px 12px 4px nth($colores, 1 );
+        -moz-box-shadow: 1px -1px 12px 4px nth($colores, 1 ); ;
     }
 
     .margin__center {
@@ -30,14 +31,14 @@ header {
 
     ul {
         list-style-type: none;
-        text-shadow: 3px 2px 3px rgb(0, 0, 0);
+        text-shadow: 3px 2px 3px nth($colores, 2 );
     }
         a{
             color: inherit;
             margin: 0px 3rem;
             text-decoration: none;
             font-weight: bold;
-            font-size: 2rem;
+            font-size: nth($font-size, 3 );
         }
             li:hover {
                 transform: scale(1.5,1.5);

@@ -1,15 +1,15 @@
 @import '../base/variables';
+@import '../base/listas';
+@import '../base/mixin';
 
 .main-container-aficion {
-    display: flex;
-    flex-wrap:unset;
-    text-shadow: 3px 2px 3px rgb(0, 0, 0);
+    @include display-wrap(flex, unset, center);
+    text-shadow: 3px 2px 3px nth($colores, 2 );
 }
 
     .main__img {
         width: 33%;
-        display: flex;
-        justify-content: space-between;
+        @include display-flex(flex, space-betweem, center);
         margin: 1rem 1rem;
         border-radius: 5rem;
         border-style: outset;

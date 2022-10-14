@@ -1,13 +1,26 @@
- @import 'components/footer';
- @import 'components/header';
- @import 'components/index';
- @import 'components/aficion';
- @import 'components/estadios';
- @import 'components/grupos';
- @import 'components/participa';
+@import 'base/estilos_generales';
+@import 'base/variables';
+@import 'base/mixin';
+@import 'base/listas';
+@import 'components/header';
+@import 'components/index';
+@import 'components/grupos';
+@import 'components/estadios';
+@import 'components/aficion';
+@import 'components/participa';
+@import 'components/footer';
+@import 'components/mediaquerys'
  
- @import 'base/listas';
- @import 'base/estilos_generales';
- @import 'base/variables';
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
 
 

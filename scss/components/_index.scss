@@ -1,8 +1,9 @@
-@import '../base/_variables';
+@import '../base/variables';
+@import '../base/listas';
 
 .article__titulo {
     padding: 5rem 5rem;
-    font-size: 4rem;
+    font-size: nth($font-size,4);
 }
 
     .article__img {
@@ -37,7 +38,7 @@
     width: 30rem;
     height: 25rem;
     border-radius: 3rem;
-    border: solid 0.35rem aliceblue;
+    border: solid 0.35rem nth($colores ,4 );
     animation: flipInY;
     animation-duration: 2s;
 }
@@ -48,9 +49,9 @@
 
 
 .section__cuenta {
-    border: outset 0.5rem #ffffff;
-    background: rgb(78,3,20);
-    background: linear-gradient(180deg, rgba(78,3,20,1) 0%, rgba(0,0,0,1) 100%);
+    border: outset 0.5rem nth($colores, 1 );
+    background: nth($colores, 3 );
+    background: linear-gradient(180deg, nth($colores, 3) 0%, nth($colores, 2) 100%);
 }
 
     .titulo__cuenta {
@@ -63,13 +64,12 @@
     }
 
     .cuenta__numeros { 
-        font-size: 2rem;
-        color: rgb(0, 0, 0);
+        font-size: nth($font-size, 3 );
+        color: nth($colores,2 );
         font-weight: bold;
-        background-color: #eeeeee;
+        background-color: nth($colores , 4 );
         padding: 2rem 2rem;
         border-radius: 50%;
-        border: solid 0.2rem rgb(104, 102, 102);
+        border: solid 0.2rem nth($colores, 5 );
         text-shadow: none;   
     }
-
