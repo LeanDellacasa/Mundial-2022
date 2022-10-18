@@ -335,6 +335,7 @@ li:hover {
   body {
     margin: 0rem auto;
   }
+  /* index */
   a {
     font-size: 1.2rem;
     margin: 0rem auto;
@@ -382,6 +383,7 @@ li:hover {
   div.politicas__width {
     font-size: 1.2rem;
   }
+  /* estadios */
   div iframe {
     width: 100%;
     height: 218px;
@@ -389,6 +391,39 @@ li:hover {
   div.main__parrafos {
     font-size: 1.2rem;
     width: 100%;
+  }
+  /* grupos */
+  #img-grupos {
+    height: 200%;
+  }
+  /* participa */
+  .parrafo__participa {
+    display: none;
+  }
+  .participa__form {
+    width: 100%;
+  }
+  .form__input {
+    width: 100%;
+  }
+  .participa__titulo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  /* aficion */
+  .main-container-aficion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 3px 2px 3px rgb(0, 0, 0);
+  }
+  .main__img {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
